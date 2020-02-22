@@ -1,0 +1,63 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.section1{
+	width: 100%;
+	height: 100px;
+	text-align: right;
+	background: #A8F0F0;
+	order: 0;
+
+}
+.section2{
+	width: 80%;
+	float: right;
+	border: 4px #C2E9E9 solid;
+	background: #E8FBFB;
+	margin-top: 10px;
+	padding: 5px;
+	background-position: right center;
+	order: 1;
+}
+.section3{
+	width: 80%;
+	float: right;
+	border: 4px #C2E9E9 solid;
+	background: #E8FBFB;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.text_box{
+	font-size: 14pt;
+}
+
+.insidesection2{
+	border-bottom: 2px blue dashed;
+}
+.container{
+	
+	flex direction: column;
+	border: 10px white solid;
+	background: white;
+	background-image: url("images/Bacground-clouds.jpg");
+
+}
+.Friends{
+	padding: 5px;
+	width: 15%;
+	margin-top: 10px;
+	float: left;
+	border: blue solid;
+	background: #A8F0FF;
+
+
+}
+
+.img{
+	float: right;
+}
+.message{
+	float: left;
+}
